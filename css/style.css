@@ -27,6 +27,7 @@ body {
 .content {
    width: 200px;
    background-color:blue;
+   right: auto;
 }
 
 .main-text {
