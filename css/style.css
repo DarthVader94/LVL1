@@ -7,27 +7,22 @@ body {
 }
 
 .header {
-   width: ;
    border: 3px, black;
-   height: 50px;
+   height: 120px;
    background-color: silver;
 }
 
 .saidbar {
-   height: 100px;
-   width: 100px;
+   width: 120px;
    background-color: silver;
-
 }
 
 .content {
-   height: 200px;
    width: 200px;
-   background-color: black;
+   background-color:blue;
 }
 
 .footer {
    height: 50px;
-   
    background-color: black;
 }
