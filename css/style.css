@@ -14,9 +14,14 @@ body {
 }
 
 .block {
-   background-color: black;
-   width: 20px;
-   height: 20px;
+   background-color: white;
+   width: 70px;
+   height: 70px;
+   float:;
+}
+
+.text-block {
+   right: 20px;
 }
 
 .saidbar {
