@@ -7,9 +7,10 @@ body {
 }
 
 .header {
-   border: 3px, black;
+   border: 1px solid black;
    height: 120px;
    background-color: silver;
+
 }
 
 .block {
