@@ -10,8 +10,8 @@ body {
    border: 1px solid black;
    height: 120px;
    background-color: silver;
-
 }
+
 
 .block {
    background-color: white;
@@ -24,20 +24,22 @@ body {
    right: 20px;
 }
 
-.saidbar {
+.saidbar:hover {
    height: 100px;
    width: 120px;
    background-color: silver;
+   text-decoration: underline;
+   cursor: pointer;
 }
 
-.content {
+.main {
    width: 200px;
    background-color:blue;
    right: auto;
 }
 
 .main-text {
-color: red;
+color: black;
 }
 
 .footer {
