@@ -8,8 +8,10 @@ body {
 
 .header {
    border: 1px solid black;
-   height: 120px;
+   height: 100px;
+   width: 760px;
    background-color: silver;
+   
 }
 
 
@@ -17,32 +19,38 @@ body {
    background-color: white;
    width: 70px;
    height: 70px;
-   float:;
+   margin:9px;
 }
 
 .text-block {
    right: 20px;
 }
 
-.saidbar:hover {
-   height: 100px;
-   width: 120px;
-   background-color: silver;
-   text-decoration: underline;
+.saidbar {
+   height: 450px;
+   width: 230px;
+   background-color: red;
+   /*text-decoration: underline;*/
    cursor: pointer;
+   float: left;
 }
 
 .main {
-   width: 200px;
+   width: 762px;
+   height: 450px;
    background-color:blue;
    right: auto;
 }
 
+
 .main-text {
 color: black;
+font-size: ;
+font-family: ;
 }
 
 .footer {
-   height: 50px;
+   height: 40px;
+   width: 762px;
    background-color: black;
 }
