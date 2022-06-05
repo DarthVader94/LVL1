@@ -8,13 +8,14 @@ body {
    width: 100%;
    display: flex;
    flex-direction: column;
+   
 }
 
 .header {
    display: flex;
    justify-content: start;
    align-items: center;
-   border: 1px solid rgba(192, 192, 192, 0.158);
+   border: 1px solid rgba(0, 0, 0, 0.445);
    height: 100%;
    width: 100%;
    background-color: silver;
@@ -22,6 +23,24 @@ body {
    margin-top: 5px;
 }
 
+#tex-h3 {
+margin-top: 0px;
+font-size: 12px;
+word-spacing: 2px;
+color: rgba(0, 0, 0, 0.459);
+}
+
+.tex {
+   color: rgba(0, 0, 0, 0.459);
+}
+
+.tex-h2 {
+margin-top: 0px;
+}
+
+.tex-p {
+margin-top: -13px;
+}
 
 .block {
    background-color: white;
@@ -37,6 +56,7 @@ body {
    flex-direction: column;
    justify-content: space-between;
    margin-left: 9px;
+   margin-top: -15px;
 }
 
 
@@ -98,7 +118,6 @@ body {
    height: 450px;
    width: 230px;
    background-color: rgba(168, 167, 167, 0.76);
-   /*text-decoration: underline;*/
    cursor: pointer;
 }
 
@@ -131,19 +150,9 @@ body {
    background-color:white;
    right: auto;
    text-align: left;
-   
 }
 
-/*@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Nuosu+SIL&family=Tai+Heritage+Pro:wght@400;700&display=swap'
 
-.main-text {
-color: black;
-/*font-size: ;
-font-family: 'Mukta', sans-serif;
-font-family: 'Nuosu SIL', serif;
-font-family: 'Tai Heritage Pro', serif;
-margin-right: 10px;
-} */
 
 .footer {
    display: flex;
